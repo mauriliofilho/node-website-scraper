@@ -1,0 +1,257 @@
+repo_name: mauriliofilho/node-website-scraper
+report_id: 4e3eaf4a97850d88374d133e98336bf0
+repo_type: Public
+timestamp: '2023-11-30T15:48:05+00:00'
+requested_by: s0ph1e
+provider: github
+branch: master
+detected_tools_count: 18
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: Code Climate
+  description: Automated Ruby Code Review
+  website_url: https://codeclimate.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/305/KFgYaUkK.png
+  detection_source: package.json
+  last_updated_by: s0ph1e
+  last_updated_on: 2015-07-24 18:25:10.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  version: 2.2.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: github.com/mauriliofilho/node-website-scraper/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: s0ph1e
+  last_updated_on: 2015-07-24 19:54:23.000000000 Z
+- name: SinonJS
+  description: Standalone test spies, stubs and mocks for JavaScript
+  website_url: http://sinonjs.org/
+  version: 1.15.4
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/3509/logo.png
+  detection_source_url: github.com/mauriliofilho/node-website-scraper/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: s0ph1e
+  last_updated_on: 2015-07-14 19:32:31.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source: ".travis.yml"
+  last_updated_by: Ilya Antipenko
+  last_updated_on: 2014-11-29 19:11:17.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: package.json
+  last_updated_by: s0ph1e
+  last_updated_on: 2014-09-04 17:05:41.000000000 Z
+- name: HTML
+  description: Hypertext Markup Language for creating web pages.
+  website_url: http://
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
+  detection_source: test/functional/mocks/base/about.html
+  last_updated_by: s0ph1e
+  last_updated_on: 2015-07-22 21:43:27.000000000 Z
+- name: bluebird
+  description: Full featured Promises/A+ implementation with exceptionally good performance
+  package_url: https://www.npmjs.com/bluebird
+  version: 3.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15866/default_01b1499f31f2eff6ed744a57b056e181400df5b2.png
+  detection_source_url: github.com/mauriliofilho/node-website-scraper/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: s0ph1e
+  last_updated_on: 2015-10-28 15:57:04.000000000 Z
+- name: cheerio
+  description: Fast, flexible, and lean implementation of core jQuery
+  package_url: https://www.npmjs.com/cheerio
+  version: 0.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15949/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: github.com/mauriliofilho/node-website-scraper/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: s0ph1e
+  last_updated_on: 2014-09-05 08:13:30.000000000 Z
+- name: codeclimate-test-reporter
+  description: Code Climate test reporter client for javascript projects
+  package_url: https://www.npmjs.com/codeclimate-test-reporter
+  version: 0.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16409/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
+  detection_source_url: github.com/mauriliofilho/node-website-scraper/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: s0ph1e
+  last_updated_on: 2015-07-24 18:25:10.000000000 Z
+- name: fs-extra
+  description: Fs-extra contains methods that aren't included in the vanilla Node.js
+    fs package
+  package_url: https://www.npmjs.com/fs-extra
+  version: 0.26.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15836/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: github.com/mauriliofilho/node-website-scraper/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: s0ph1e
+  last_updated_on: 2015-10-28 15:57:04.000000000 Z
+- name: istanbul
+  description: Yet another JS code coverage tool that computes statement, line, function
+    and branch coverage with module loader hooks to transparently add coverage when
+    running tests
+  package_url: https://www.npmjs.com/istanbul
+  version: 0.4.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15833/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: github.com/mauriliofilho/node-website-scraper/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: s0ph1e
+  last_updated_on: 2015-10-28 15:57:04.000000000 Z
+- name: nock
+  description: HTTP server mocking and expectations library for Node.js
+  package_url: https://www.npmjs.com/nock
+  version: 2.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16036/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: github.com/mauriliofilho/node-website-scraper/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: s0ph1e
+  last_updated_on: 2015-07-24 19:54:23.000000000 Z
+- name: request
+  description: Simplified HTTP request client
+  package_url: https://www.npmjs.com/request
+  version: 2.42.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15823/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: github.com/mauriliofilho/node-website-scraper/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Ilya Antipenko
+  last_updated_on: 2014-09-07 16:24:27.000000000 Z
+  vulnerabilities:
+  - name: Server-Side Request Forgery in Request
+    cve_id: CVE-2023-28155
+    cve_url: https://github.com/advisories/GHSA-p8p7-x288-28g6
+    detected_date: Mar 17
+    severity: moderate
+    first_patched: 
+  - name: Remote Memory Exposure in request
+    cve_id: CVE-2017-16026
+    cve_url: https://github.com/advisories/GHSA-7xfp-9c55-5vqj
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 2.68.0
+- name: should
+  description: Test framework agnostic BDD-style assertions
+  package_url: https://www.npmjs.com/should
+  version: 7.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15871/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: github.com/mauriliofilho/node-website-scraper/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: s0ph1e
+  last_updated_on: 2015-07-24 19:54:23.000000000 Z
+- name: underscore
+  description: JavaScript's functional programming helper library
+  package_url: https://www.npmjs.com/underscore
+  version: 1.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15882/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: github.com/mauriliofilho/node-website-scraper/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: s0ph1e
+  last_updated_on: 2015-07-14 19:32:31.000000000 Z
+  vulnerabilities:
+  - name: Arbitrary Code Execution in underscore
+    cve_id: CVE-2021-23358
+    cve_url: https://github.com/advisories/GHSA-cf4h-3jhx-xvhq
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 1.12.1
